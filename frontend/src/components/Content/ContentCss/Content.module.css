@@ -1,0 +1,12 @@
+.titulo {
+    display: block;
+    text-align: center;
+}
+
+.posicionamento {
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;  /* Permite a quebra de linha */
+    justify-content: center; /* Alinha os itens no centro */
+    gap: 34px; /* Espaço entre os itens */
+}

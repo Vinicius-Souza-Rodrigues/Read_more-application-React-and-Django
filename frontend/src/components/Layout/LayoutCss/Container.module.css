@@ -1,0 +1,10 @@
+body {
+    margin: 0px auto;
+    display: block;
+}
+
+.start {
+    margin: 0px auto;
+    width: 90vw;
+    padding: 2vw 0vw 0px 0vw;
+}

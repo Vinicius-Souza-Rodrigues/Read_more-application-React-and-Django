@@ -1,0 +1,80 @@
+.corpo {
+    background-color: rgb(19, 18, 18);
+    border-radius: 17px;
+    border: 3px solid grey;
+    padding: 10px 25px 0px 25px;
+}
+
+.titulo {
+    font-size: 17px;
+    width: 250px;  /* Define a largura máxima */
+    white-space: nowrap; /* Impede que o texto quebre a linha */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa */
+    text-overflow: ellipsis; /* Adiciona "..." no final */
+
+}
+
+.caps {
+    min-width: 70px;
+}
+
+.titulo h3 {
+    margin-bottom: 3px;
+}
+
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+    min-width: 0px;
+}
+
+.detalhes p {
+    font-size: 17px;
+    border: 2.5px solid grey;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.exceto {
+    min-width: 142px;
+}
+
+.descricao {
+    padding: 7px;
+    border: 2.5px solid grey;
+    height: 100px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.nota {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nota p {
+    border: 2.5px solid grey;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.botao  {
+    margin-top: 14px;
+    background-color: grey;
+    height: 40px;
+    border-radius: 11px;
+    color: white;
+    font-weight: bolder;
+    border: 3px solid rgb(19, 18, 18);
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.botao p:hover {
+    color: gold;
+}
+

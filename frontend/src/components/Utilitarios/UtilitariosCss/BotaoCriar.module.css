@@ -1,0 +1,33 @@
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao a {
+    background-color: grey;
+    height: 50px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bolder;
+    border: 3px solid rgb(19, 18, 18);
+    padding-left: 19px;
+    padding-right: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.botao a:hover {
+    color: rgb(238, 215, 87);
+    background-color: rgb(124, 122, 122);
+    transition: 40ms;
+    transform: scale(1.03);
+}
+
+.botao a:active {
+    transform: scale(1.02);
+    color: rgb(146, 133, 57);
+    transition: 3ms;
+}
