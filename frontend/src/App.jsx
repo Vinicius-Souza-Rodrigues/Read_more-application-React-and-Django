@@ -5,7 +5,7 @@ import Footer from './components/Layout/Footer'
 import Container from './components/Layout/Container'
 
 import Content from './components/Content/Content'
-import CreateForm from './components/Forms/CreateForm'
+import FormCreate from './components/Content/FormCreate'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <Container customClass='start'>
         <Routes>
           <Route path="/" element={<Content />} />
-          <Route path="create/" element={<CreateForm />} />
+          <Route path="create/" element={<FormCreate />} />
         </Routes>
       </Container>
       <Footer />

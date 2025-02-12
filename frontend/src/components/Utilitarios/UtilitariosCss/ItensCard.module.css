@@ -5,6 +5,7 @@
     padding: 10px 25px 0px 25px;
 }
 
+
 .titulo {
     font-size: 17px;
     width: 250px;  /* Define a largura máxima */
@@ -14,8 +15,50 @@
 
 }
 
+.bolinha {
+    margin-top:7.5px;
+    margin-right: 7px;
+    margin-left: 3px;
+    display: block;
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.detalhes p {
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.dropado {
+    background-color: rgb(199, 65, 65);
+}
+
+.finalizado {
+    background-color: rgb(43, 150, 43);
+}
+
+.em_andamento {
+    background-color: rgb(207, 207, 58);
+}
+
+.em_andamentoa {
+    border: 2.5px solid rgb(207, 207, 58);
+}
+
+.finalizadoa {
+    border: 2.5px solid rgb(43, 150, 43);
+}
+
+.dropadoa {
+    border: 2.5px solid rgb(199, 65, 65);
+}
+
 .caps {
     min-width: 70px;
+    border: 2.5px solid gray;
 }
 
 .titulo h3 {
@@ -28,15 +71,10 @@
     min-width: 0px;
 }
 
-.detalhes p {
-    font-size: 17px;
-    border: 2.5px solid grey;
-    padding: 5px;
-    border-radius: 7px;
-}
 
 .exceto {
     min-width: 142px;
+    display: flex;
 }
 
 .descricao {
@@ -53,9 +91,52 @@
 }
 
 .nota p {
-    border: 2.5px solid grey;
     padding: 7px;
     border-radius: 7px;
+}
+
+.cor0 {
+    border: 2.5px solid rgb(199, 65, 65);
+}
+
+.cor1 {
+    border: 2.5px solid rgb(180, 78, 62);
+}
+
+.cor2 {
+    border: 2.5px solid rgb(161, 91, 60);
+}
+
+.cor3 {
+    border: 2.5px solid rgb(142, 104, 57);
+}
+
+.cor4 {
+    border: 2.5px solid rgb(123, 117, 55);
+}
+
+.cor5 {
+    border: 2.5px solid rgb(104, 130, 52);
+}
+
+.cor6 {
+    border: 2.5px solid rgb(90, 135, 50);
+}
+
+.cor7 {
+    border: 2.5px solid rgb(80, 140, 48);
+}
+
+.cor8 {
+    border: 2.5px solid rgb(70, 145, 46);
+}
+
+.cor9 {
+    border: 2.5px solid rgb(57, 148, 45);
+}
+
+.cor10 {
+    border: 2.5px solid rgb(43, 150, 43);
 }
 
 .botao  {

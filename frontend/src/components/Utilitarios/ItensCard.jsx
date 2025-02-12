@@ -10,7 +10,7 @@ function ItensCard( {id, nome, detalhes, nota, cap, descricao} ) {
             </div>
 
             <div className={styles.detalhes}>
-                <p className={styles.exceto}>* {detalhes}</p>
+                <p className={`${styles.exceto}  ${styles[detalhes+'a']}`}><span className={`${styles.bolinha} ${styles[detalhes.toLowerCase()]}`}></span> {detalhes}</p>
 
                 <p className={styles.caps}>Pg. {cap}</p>
             </div>
@@ -20,7 +20,7 @@ function ItensCard( {id, nome, detalhes, nota, cap, descricao} ) {
             </div>
 
             <div className={styles.nota}>
-                <p>{nota}/10</p>
+                <p className={styles['cor'+nota]}>Nota: {nota}</p>
 
                 <Link to='/' className={styles.botao}>
                     <p>Editar</p>
